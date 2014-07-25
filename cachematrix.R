@@ -1,9 +1,3 @@
-
-
-
-
-
-
 ## makeCacheMatrix accepts a matrix.  It creates two other functions to be used by cacheSolve function
 makeCacheMatrix <- function(x = matrix()) {
       	i <- NULL
@@ -31,9 +25,6 @@ makeCacheMatrix <- function(x = matrix()) {
         getinverse = getinverse) 
 
 }
-
-
-
 
 
 ## cacheSolve accepts a matrix. calls one of two functions from makeCacheMatrix
